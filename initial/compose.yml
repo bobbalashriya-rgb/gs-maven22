@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  gs-maven:
+    image: appimage:latest
+    ports:
+      - "8080:8080"
